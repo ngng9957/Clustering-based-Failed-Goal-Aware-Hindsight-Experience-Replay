@@ -12,3 +12,27 @@
 - mujoco-py
 - mpi4py
 - sklearn
+
+## Instructions
+- run the **FetchPush-v1**:
+```bash
+python train.py --env-name='FetchPush-v1'
+
+```
+- run the **FetchPickAndPlace-v1**:
+```bash
+python train.py --env-name='FetchPickAndPlace-v1'
+
+```
+- run the **FetchSlide-v1**:
+```bash
+python train.py --env-name='FetchSlide-v1'
+
+```
+- run the demo (e.g. **FetchPickAndPlace**)
+```bash
+python demo.py --env-name='FetchPickAndPlace-v1'
+
+```
+## Plot Curves
+The script to plot learning curves is provided in `/figures/graph_hor.py`.
