@@ -13,6 +13,10 @@
 - mpi4py
 - sklearn
 
+## Main Contributions
+1. Clustering the achieved goals by using a cluster model which is fit to failed goals. This is implemented in `/rl_modules/replay_buffer.py`
+2. Sampling episodes from each clustered buffer. This process is implemented in `/her_modules/her.py`
+
 ## Instructions
 - run the **FetchPush-v1**:
 ```bash
